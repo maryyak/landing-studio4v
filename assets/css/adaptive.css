@@ -1,0 +1,149 @@
+@media (max-height: 800px) {
+    .main-banner__container{
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .main-banner__desc {
+        padding: 20px;
+        gap: 45px;
+        bottom: -15px;
+        align-items: center;
+    }
+
+    .main-banner__heading {
+        gap: 10px;
+    }
+
+    .logo_main-banner {
+        max-width: 140px;
+    }
+
+    .main-banner__name {
+        font-size: 56px;
+    }
+
+    .main-banner__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-height: 800px) and (min-width: 1300px) {
+    .main-banner__background{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-banner__desc {
+        bottom: -50px;
+    }
+
+    .header__nav, .header__contacts {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-banner__container{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .main-banner__desc{
+        position: relative;
+        bottom: 0;
+        flex-direction: column;
+    }
+
+    .header__nav,
+    .header__contacts {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .service__heading{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .carousel-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contacts__container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-banner__desc {
+        gap: 25px;
+    }
+
+    .logo_main-banner {
+        max-width: 100px;
+    }
+
+    .main-banner__name {
+        font-size: 41px;
+    }
+
+    .main-banner__text {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .main-banner__desc {
+        padding: 15px 10px;
+    }
+
+    .service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contact-button_service {
+        font-size: 19px;
+        padding: 10px 20px;
+    }
+
+    .service__title {
+        font-size: 28px;
+    }
+
+    .main-banner__container {
+        padding-top: 20px;
+    }
+
+    .service-item__desc {
+        position: relative;
+    }
+
+    .contacts__heading {
+        font-size: 37px;
+    }
+
+    .contacts__container{
+        padding: 30px 15px;
+    }
+
+    .main-banner__text{
+        max-height: 200px;
+        overflow: scroll;
+    }
+
+    .contacts__link {
+        max-width: 70px;
+    }
+}
